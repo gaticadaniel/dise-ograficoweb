@@ -1,0 +1,58 @@
+header {
+    background-color: #08BD9A;
+    width: auto;
+    /* Establecemos que el header abarque el 100% del documento */
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    color: #08BD9A !important;
+}
+
+h3 {
+    color: #08BD9A !important;
+    /* Cambia este color según tu preferencia */
+}
+
+
+/* Estilos personalizados para los íconos de servicios */
+
+.service-icon i {
+    color: #08BD9A;
+    /* Cambia este color según tu preferencia */
+    transition: color 0.3s ease;
+}
+
+.service-icon i:hover {
+    color: #ff5733;
+    /* Cambia este color para el hover según tu preferencia */
+}
+
+
+/* Clase para imagen con bordes redondeados */
+
+.col-6 img {
+    border-radius: 15px;
+    /* Ajusta este valor para cambiar el radio de los bordes */
+    overflow: hidden;
+    /* Asegura que los bordes redondeados se apliquen correctamente */
+    display: block;
+    max-width: 80%;
+    /* Asegura que la imagen no exceda el tamaño del contenedor */
+    height: auto;
+}
+
+
+/* Estilo para los íconos de redes sociales */
+
+.social-icons a {
+    color: #08BD9A;
+    /* Color inicial de los íconos */
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ff5733;
+    /* Color al pasar el ratón por encima */
+}
